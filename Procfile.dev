@@ -1,0 +1,5 @@
+web: unset PORT && bundle exec rdbg --open -n -c -- bin/rails server
+js: yarn build --watch
+css: yarn build:css --watch
+worker: bundle exec sidekiq
+smtp: mailcatcher -f
