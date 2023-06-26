@@ -5,4 +5,7 @@
 import { application } from "./application"
 
 import RemovalsController from "./removals_controller"
+
+import MapController from "../../components/map_component_controller"
+application.register("map-component", MapController)
 application.register("removals", RemovalsController)
